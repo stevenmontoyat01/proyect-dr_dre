@@ -1,6 +1,6 @@
 
 html{
-    font-size: 25px;
+    font-size: 20px;
 }
 body{
     background-color:rgb(255, 255, 255);
@@ -11,14 +11,12 @@ header{
     background-color:rgb(170, 0, 0);
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: 20px 20px 0 20px;
 }
 
 nav{
     background: rgb(170, 0, 0);
     border: 1px ;
     padding: 3px 10px 3px 10px;
-    margin: 30px 20px 40px 20px;
 }
 nav ul li{
     display: inline;
@@ -47,8 +45,6 @@ h2{
     color:#fff;
     background: rgb(170, 0, 0);
     font-size: 45px;
-    margin-left: 20px ;
-    margin-right: 20px;
 }
 
 h4{
@@ -80,20 +76,47 @@ div img{
     padding-bottom: 30px;
 }
 
-img{
-    width: 300px;
-    height: 400;
-    text-align: right;
-}
 
 .img{
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    float: left;
+    margin: 30px 30px 20px 130px;
+    width: 300px;
+    height: 195px;
 }
-
+.p_float{
+    float: right;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .nav_diseño{
     text-align: center;
 }
 
+.principal{
+    width: 1100px;  /*ancho de la página*/
+    margin: 20px auto;
+    border: 2px solid #000000;
+    box-shadow: 3px 3px 3px #333;
+    border-radius: 10px;
+    background: #FFF;
+}
 
+.clear{
+    clear:both
+}
+
+footer {
+    background: rgb(170, 0, 0);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer div{
+    text-align: center;
+    color: white;
+}
+
+footer div a{
+    color: black;
+}
