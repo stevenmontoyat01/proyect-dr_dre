@@ -47,9 +47,6 @@ h2{
     font-size: 45px;
 }
 
-h4{
-    color: rgb(128, 3, 3);
-}
 p{
     color: #000;;
     margin: 0 20px 0 20px;
@@ -119,4 +116,26 @@ footer div{
 
 footer div a{
     color: black;
+}
+
+.ul_disc{
+    list-style: none;
+
+}
+.ul_disc img{
+    width: 200px;
+}
+
+.li_disc{
+    float: left;
+}
+
+.li_disc img{
+    width: 300px;
+    left: 280px;
+    margin: 30px 30px 20px 30px;
+}
+
+.li_disc a:hover{
+    color: rgb(170, 0, 0) ; 
 }
