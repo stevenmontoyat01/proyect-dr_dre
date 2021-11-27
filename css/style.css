@@ -120,6 +120,8 @@ footer div a{
 
 .ul_disc{
     list-style: none;
+    padding-left: 100px;
+    padding-right: 100px;
 
 }
 .ul_disc img{
@@ -131,8 +133,8 @@ footer div a{
 }
 
 .li_disc img{
-    width: 300px;
-    left: 280px;
+    width: 250px;
+    left: 300px;
     margin: 30px 30px 20px 30px;
 }
 
