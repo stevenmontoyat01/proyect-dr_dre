@@ -3,7 +3,7 @@ html{
     font-size: 20px;
 }
 body{
-    background-image:url(../img/fondo.png);
+    background-image:url(../img/fondoNWA.jpg);
     width: 1200px;
     margin: 0 auto;
 }
@@ -145,6 +145,8 @@ footer div a{
 
 input{
     width: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
 }
 
 .form_parrafo{
@@ -157,4 +159,9 @@ input#si{
 
 input#no{
     width: 30px;
+}
+
+input.boton_color{
+    background: #000;
+    color: white;
 }
