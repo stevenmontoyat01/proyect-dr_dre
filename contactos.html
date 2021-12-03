@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>DR.DRE</title>
+</head>
+<body>
+    <main class="principal">
+        <header>
+        <h1>CONCTATCTOS</h1>
+        </header>
+            <div class="nav_diseño">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">historia</a></li>
+                        <li><a href="carrera.html"> carrera </a></li>
+                        <li><a href="discografia.html"> discografia</a></li> 
+                        <li><a href="contactos.html">contactos</a></li>       
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h3 style="color: white; margin-left: 430px; background: black; margin-right: 430px;"><b>FORMULARIO</b></h3>
+            </div>
+            <h3 style="color: white; margin-left: 30px; background: black; margin-right: 820px;">DATOS BASICOS</h3>
+            <form >
+                <label for="nombre" class="form_parrafo" ><b>nombre:</b></label>
+                <input type="text" id="nombre" placeholder="digite nombre" ><br><br>
+                <label for="apellido" class="form_parrafo"><b>apellido:</b></label>
+                <input type="text" id="apellido" placeholder="digite apellido"><br><br>
+                <label for="edad" class="form_parrafo"><b>edad:</b></label>
+                <input type="number" id="edad" style="margin-left: 24px;"><br><br>
+                <label for="genero" class="form_parrafo"><b>genero:</b></label>
+                <select name="genero" id="genero" style="width: 180px;margin-left: 10px;">
+                    <option value="Masculino" >Masculino</option>
+                    <option value="Femenino" >Femenino</option>
+                    <option value="Otro" >Otro</option>
+                </select><br><br>
+                <label for="telefono" class="form_parrafo"><b>telefono:</b></label>
+                <input type="tel" id="telefono" placeholder="digite numero telefonico"><br><br>
+
+                <h3 style="color: white; margin-left: 30px; background: black; margin-right: 820px;">MAS INFORMACION</h3>
+                    <label for="correo" class="form_parrafo"><b>correo electronico: </b></label>
+                    <input type="email" id="correo" placeholder="digite su correo electronico" ><br><br>
+                    <p style="color: rgb(170, 0, 0); font-size: 18px;" class="form_parrafo">NOTA:su contraseña debe ser de maximo 20 caracteres</p><br>
+                    <label for="contraseña" class="form_parrafo"><b>contraseña:</b></label>
+                    <input type="text" id="contraseña" maxlength="20" placeholder="digite una contraseña" style="margin-left: 59px;"><br><br>
+                    <label for="contraseña" class="form_parrafo"><b>verificacion de contraseña:</b></label>
+                    <input type="text" id="contraseña" maxlength="20" placeholder="vuelva a digitar la contraseña"><br><br>
+                    <label for="booleano" class="form_parrafo"><b>desea recibir informacion en su correo:</b></label>
+                        <input type="radio" id="si" name="pregunta">
+                        <label for="si">si</label>
+                        <input type="radio" id="no" name="pregunta">
+                        <label for="no">no</label><br><br>
+                    <div>
+                        <input type="reset" value="Borrar" class="boton_color">
+                        <input type="submit" value="Enviar" class="boton_color"> <!-- Permite crear un botón -->
+
+                    </div>
+            </form>
+            <footer>
+                <div>
+                esta pagina solo fue hecho para el conocimiento desarrollo en html y css,
+                <br>para mas informacion donde se obtuvo la informacion ingrese:
+                <a href="https://es.wikipedia.org/wiki/Dr._Dre" target="black">https://es.wikipedia.org/wiki/Dr._Dre</a>
+                </div>
+            </footer>
+    </main>
+</body>
+</html>
